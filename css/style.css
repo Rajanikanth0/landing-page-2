@@ -6,21 +6,45 @@
   box-sizing: border-box;
 }
 body {
-  font-size: 18px;
   font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* layout */
 
 .layout {
-  background-color: lightblue;
   display: flex;
+  background-color: #1f2937;
 }
 .empty {
   flex: 1;
-  background-color: lightpink;
 }
 .content {
   width: 1200px;
-  background-color: lightsalmon;
+}
+
+/* header */
+
+.header {
+  padding: 20px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+.header ul {
+  display: flex;
+  gap: 24px;
+  color: #e5e7eb;
+  font-size: 18px;
+  list-style-type: none;
 }
