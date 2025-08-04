@@ -9,3 +9,18 @@ body {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
 }
+
+/* layout */
+
+.layout {
+  background-color: lightblue;
+  display: flex;
+}
+.empty {
+  flex: 1;
+  background-color: lightpink;
+}
+.content {
+  width: 1200px;
+  background-color: lightsalmon;
+}
