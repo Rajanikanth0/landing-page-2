@@ -17,3 +17,7 @@ There are 3 sections on the page
 ## Header
 
 The logo is in the written form, but soon it will be in original form. Other navigational links are not yet defined and replaced with some placeholders.
+
+## Hero Text
+
+The title, description, sign up button and image are all aligned in a split form. This information is used to showcase the website. And to quickly signup.
