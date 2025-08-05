@@ -14,16 +14,18 @@ a {
 }
 
 /* layout */
-
-.layout {
-  display: flex;
-  background-color: #1f2937;
-}
 .empty {
   flex: 1;
 }
 .content {
   width: 1000px;
+}
+
+/* top-layout */
+
+.top-layout {
+  display: flex;
+  background-color: #1f2937;
 }
 
 /* header */
@@ -94,4 +96,50 @@ nav {
 .right-side {
   flex: 1;
   background-color: #ffffff7c;
+}
+
+/* info */
+
+.layout-2 {
+  display: flex;
+}
+.empty-2 {
+  flex: 1;
+}
+.content-2 {
+  width: 1000px;
+}
+
+.info {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-title {
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.info-title h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.info ul {
+  list-style-type: none;
+  display: flex;
+  gap: 60px;
+}
+.info li {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.info .img-back{
+  height: 150px;
+  border: thick solid #3882f6;
+  border-radius: 20px;
 }
