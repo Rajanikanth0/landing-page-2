@@ -176,3 +176,47 @@ nav {
   font-size: 22px;
   font-weight: bold;
 }
+
+/* call-to-action */
+
+.layout-4 {
+  display: flex;
+}
+.empty-4 {
+  flex: 1;
+}
+.content-4 {
+  width: 1000px;
+}
+
+.cta {
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cta-back {
+  padding: 40px 0;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.cta-title {
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cta-desc {
+  color: #e5e7eb;
+  font-weight: 300;
+}
+.cta-back button {
+  border-color: #f9faf8;
+  padding: 8px 30px;
+  border-radius: 12px;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+}

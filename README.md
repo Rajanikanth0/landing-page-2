@@ -27,3 +27,7 @@ Add 4 empty images and aligned center with some description under it.
 ## Quote
 
 The quote section is highlighted with lightgray color. The quote is an inspiration of some other level resource.
+
+## Call-to-action
+
+There a call-to-action button for breif info of the service and a quick sign-up button. It is highlighted in blue-background.
