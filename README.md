@@ -19,3 +19,7 @@ The logo is in the written form, but soon it will be in original form. Other nav
 ## Hero Text
 
 The title, description, sign up button and image are all aligned in a split form. This information is used to showcase the website. And to quickly signup.
+
+## Information
+
+Add 4 empty images and aligned center with some description under it.
