@@ -23,3 +23,7 @@ The title, description, sign up button and image are all aligned in a split form
 ## Information
 
 Add 4 empty images and aligned center with some description under it.
+
+## Quote
+
+The quote section is highlighted with lightgray color. The quote is an inspiration of some other level resource.

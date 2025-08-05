@@ -55,7 +55,7 @@ nav {
 /* hero-text */
 
 .hero {
-  height: 400px;
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,20 +107,18 @@ nav {
   flex: 1;
 }
 .content-2 {
-  width: 1000px;
+  width: 800px;
 }
 
 .info {
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 450px;
 }
 .info-title {
   height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .info-title h2 {
   font-size: 36px;
@@ -130,7 +128,7 @@ nav {
 .info ul {
   list-style-type: none;
   display: flex;
-  gap: 60px;
+  justify-content: space-between;
 }
 .info li {
   width: 150px;
@@ -145,4 +143,36 @@ nav {
 }
 .info p {
   text-align: center;
+}
+
+/* quote */
+
+.layout-3 {
+  display: flex;
+  background-color: #e5e7eb;
+}
+.empty-3 {
+  flex: 1;
+}
+.content-3 {
+  width: 750px;
+}
+
+.quote {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+}
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 300;
+}
+.quote-author {
+  font-size: 22px;
+  font-weight: bold;
 }
