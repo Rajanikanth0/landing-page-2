@@ -143,3 +143,6 @@ nav {
   border: thick solid #3882f6;
   border-radius: 20px;
 }
+.info p {
+  text-align: center;
+}
